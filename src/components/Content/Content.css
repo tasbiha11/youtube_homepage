@@ -1,8 +1,9 @@
 .video-card {
     margin-bottom: 40px;
     position: relative;
-    margin-left: 120px;
+    margin-left: 110px;
     margin-top: 25px;
+    margin-right: 0px;
 }
 
 .info {
@@ -12,87 +13,3 @@
 .info:hover {
     color: blue;
 }
-
-/* .video-card:hover.playlist-add.watch-later {
-    display: flex;
-}
-
-.watch-later .playlist-add {
-    position: absolute;
-    display: none;
-    top: 10px;
-    background-color: #0000;
-    color: #ffff !important;
-    right: 10px;
-    font-size: 20px !important;
-    padding: 4px 4px;
-    opacity: 0.8;
-    align-items: center;
-    border-radius: 3px;
-
-}
-
-.video-icon {
-    font-size: 20px !important;
-}
-
-.video-image {
-    height: 162px;
-    width: 295px;
-    margin-bottom: 0px;
-
-}
-
-.duration {
-    background-color: #0000;
-    width: 40px;
-    height: 18px;
-    text-align: center;
-    color: #ffff;
-    border-radius: 3px;
-    position: absolute;
-    top: 135px;
-    right: 10px;
-    font-size: 12px;
-    font-weight: 600;
-    opacity: 0.9;
-}
-
-.video-data {
-    display: flex;
-    padding-top: 10px;
-    margin-left: 100px;
-}
-
-.channel-details {
-    margin-left: 10px;
-    margin-left: 30px;
-}
-
-.channel-details p {
-    margin-top: -18px;
-    font-size: 14px;
-    color: #808080;
-    font-weight: 550;
-    margin-bottom: 15px;
-}
-
-.channel-details h5 {
-    margin-top: -5px;
-    color: #0000;
-
-}
-
-.channel-name:hover {
-    color: #5A5A5A;
-    cursor: pointer;
-}
-
-.more-icon {
-    color: #5A5A5A;
-    cursor: pointer;
-}
-
-.more-icon:hover {
-    color: #808080;
-} */

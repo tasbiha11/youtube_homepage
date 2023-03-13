@@ -18,10 +18,10 @@ const Content = () => {
                         <div className='row g-5 mt-3'>
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <iframe
-                                    width="300px"
+                                    width="280px"
                                     height="150px"
                                     src={travel}
-                                    title="Youtube Player"
+                                    title="Video Player"
                                     frameborder="0"
                                     allowFullScreen
                                 />
@@ -35,10 +35,10 @@ const Content = () => {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <iframe
-                                    width="300px"
+                                    width="280px"
                                     height="150px"
                                     src={space}
-                                    title="Youtube Player"
+                                    title="Video Player"
                                     frameborder="0"
                                     allowFullScreen
                                 />
@@ -52,10 +52,10 @@ const Content = () => {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <iframe
-                                    width="300px"
+                                    width="280px"
                                     height="150px"
                                     src={nature}
-                                    title="Youtube Player"
+                                    title="Video Player"
                                     frameborder="0"
                                     allowFullScreen
                                 />

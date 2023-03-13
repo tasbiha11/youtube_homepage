@@ -46,10 +46,17 @@
 }
 
 .search-icon {
-    width: 50px !important;
+    width: 45px !important;
     background-color: #ffff;
     border-left: 1px;
     color: #808080;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color: #5A5A5A;
+    color: #ffff;
 }
 
 .top-right {
@@ -100,7 +107,7 @@
 }
 
 .collapse-menu {
-    width: 5%;
+    width: 80px;
     position: fixed;
     top: 80px;
     z-index: 50;
