@@ -5,19 +5,26 @@ import { FiMoreVertical } from 'react-icons/fi';
 
 import Data from '../../data.json';
 
+import travel from '../../assets/video/travel.mp4';
+import space from '../../assets/video/space.mp4';
+import nature from '../../assets/video/nature.mp4';
+
 const Content = () => {
     return (
         <div className='video-card '>
             {
                 Data && Data.map(data => {
                     return (
-                        <div className='row g-5'>
+                        <div className='row g-5 mt-3'>
                             <div className="col-lg-4 col-md-6 col-sm-12">
-                                <video controls width="80%">
-                                    <source src="/video-example.webm" type="video/webm" />
-                                    <source src="/video-example.mp4" type="video/mp4" />
-                                    Sorry, your browser doesn't support videos.
-                                </video>
+                                <iframe
+                                    width="300px"
+                                    height="150px"
+                                    src={travel}
+                                    title="Youtube Player"
+                                    frameborder="0"
+                                    allowFullScreen
+                                />
                                 <div className='info'>
                                     <p>{data.channelName}</p>
                                     <MdWatchLater />
@@ -27,11 +34,14 @@ const Content = () => {
                                 <small>{data.duration}</small>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
-                                <video controls width="80%">
-                                    <source src="/video-example.webm" type="video/webm" />
-                                    <source src="/video-example.mp4" type="video/mp4" />
-                                    Sorry, your browser doesn't support videos.
-                                </video>
+                                <iframe
+                                    width="300px"
+                                    height="150px"
+                                    src={space}
+                                    title="Youtube Player"
+                                    frameborder="0"
+                                    allowFullScreen
+                                />
                                 <div className='info'>
                                     <p>{data.channelName}</p>
                                     <MdWatchLater />
@@ -41,11 +51,14 @@ const Content = () => {
                                 <small>{data.duration}</small>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12">
-                                <video controls width="80%">
-                                    <source src="/video-example.webm" type="video/webm" />
-                                    <source src="/video-example.mp4" type="video/mp4" />
-                                    Sorry, your browser doesn't support videos.
-                                </video>
+                                <iframe
+                                    width="300px"
+                                    height="150px"
+                                    src={nature}
+                                    title="Youtube Player"
+                                    frameborder="0"
+                                    allowFullScreen
+                                />
                                 <div className='info'>
                                     <p>{data.channelName}</p>
                                     <MdWatchLater />
